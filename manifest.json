@@ -1,0 +1,51 @@
+{
+  "name": "Zero Level, Siliguri",
+  "short_name": "Zero Level",
+  "description": "North Bengal's premier education consultancy. MBBS, Engineering, MBA, Law, Nursing, Online Degrees and 100+ courses. Pan India admissions. Since 2013.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a3d8f",
+  "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "categories": ["education", "business"],
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Apply for Admission",
+      "short_name": "Apply Now",
+      "description": "Apply for admission — free counselling",
+      "url": "/#admission",
+      "icons": [{ "src": "/logo.jpg", "sizes": "96x96" }]
+    },
+    {
+      "name": "All Courses",
+      "short_name": "Courses",
+      "description": "Browse 100+ courses",
+      "url": "/#courses",
+      "icons": [{ "src": "/logo.jpg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Call or WhatsApp +91 7001324736",
+      "url": "/#contact",
+      "icons": [{ "src": "/logo.jpg", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
