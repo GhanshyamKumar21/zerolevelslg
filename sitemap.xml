@@ -1,63 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!--
+    NOTE: This is a single-page application (SPA) with JavaScript routing.
+    All content is served from the root URL. Hash fragments (#courses, #admission)
+    are handled client-side and are NOT separate URLs for search engines.
+    
+    To improve SEO, ensure all critical content is in the initial HTML render
+    or use server-side rendering / prerendering for each route.
+  -->
 
   <!-- Homepage — highest priority -->
   <url>
     <loc>https://www.zerolevelslg.com/</loc>
-    <lastmod>2025-05-22</lastmod>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-
-  <!-- Courses — very high traffic page -->
-  <url>
-    <loc>https://www.zerolevelslg.com/#courses</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <!-- Admission -->
-  <url>
-    <loc>https://www.zerolevelslg.com/#admission</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <!-- About -->
-  <url>
-    <loc>https://www.zerolevelslg.com/#about</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <!-- Universities -->
-  <url>
-    <loc>https://www.zerolevelslg.com/#universities</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <!-- Approvals & Recognitions -->
-  <url>
-    <loc>https://www.zerolevelslg.com/#approvals</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <!-- Contact -->
-  <url>
-    <loc>https://www.zerolevelslg.com/#contact</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
   </url>
 
 </urlset>

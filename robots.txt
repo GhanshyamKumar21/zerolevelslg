@@ -11,33 +11,5 @@ Disallow: /private/
 Disallow: /.git/
 Disallow: /node_modules/
 
-# Crawl delay (be respectful to Googlebot)
-Crawl-delay: 5
-
 # Sitemap location
 Sitemap: https://www.zerolevelslg.com/sitemap.xml
-
-# Specific bot instructions
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 2
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 3
-
-User-agent: Slurp
-Allow: /
-
-# Allow social media scrapers for OG tags
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
