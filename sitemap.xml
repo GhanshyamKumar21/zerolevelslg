@@ -1,21 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
 
-  <!--
-    NOTE: This is a single-page application (SPA) with JavaScript routing.
-    All content is served from the root URL. Hash fragments (#courses, #admission)
-    are handled client-side and are NOT separate URLs for search engines.
-    
-    To improve SEO, ensure all critical content is in the initial HTML render
-    or use server-side rendering / prerendering for each route.
-  -->
+<!-- Main sections for SPA navigation -->
+<url>
+<loc>https://www.zerolevelslg.com/</loc>
+<priority>1.0</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
 
-  <!-- Homepage — highest priority -->
-  <url>
-    <loc>https://www.zerolevelslg.com/</loc>
-    <lastmod>2026-04-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<url>
+<loc>https://www.zerolevelslg.com/#page-home</loc>
+<priority>1.0</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-about</loc>
+<priority>0.8</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses</loc>
+<priority>0.95</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-universities</loc>
+<priority>0.85</priority>
+<changefreq>bi-weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-recognitions</loc>
+<priority>0.75</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-contact</loc>
+<priority>0.85</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-admission</loc>
+<priority>0.9</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<!-- Course categories (internal navigation targets) -->
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses:medical</loc>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses:engineering</loc>
+<priority>0.85</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses:management</loc>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses:law</loc>
+<priority>0.75</priority>
+<changefreq>semi-monthly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses:online</loc>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses:board</loc>
+<priority>0.75</priority>
+<changefreq>weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses:education</loc>
+<priority>0.7</priority>
+<changefreq>bi-weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
+
+<url>
+<loc>https://www.zerolevelslg.com/#page-courses:other</loc>
+<priority>0.7</priority>
+<changefreq>bi-weekly</changefreq>
+<lastmod>2026-04-15</lastmod>
+</url>
 
 </urlset>

@@ -1,15 +1,30 @@
 # robots.txt — Zero Level, Siliguri
 # www.zerolevelslg.com
-# Education Consultancy | Since 2013
+# Last Updated: April 15, 2026
 
+# Allow all search engine crawlers
 User-agent: *
 Allow: /
-
-# Block irrelevant crawling paths
-Disallow: /admin/
+Disallow: /cdn-cgi/
 Disallow: /private/
-Disallow: /.git/
-Disallow: /node_modules/
+Disallow: /admin/
+Disallow: /*.json
+Disallow: /test/
+Disallow: /?*=
+Crawl-delay: 1
+Request-rate: 30/60
 
-# Sitemap location
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Disallow: /cdn-cgi/
+Crawl-delay: 0
+
+# Bing-specific rules
+User-agent: Bingbot
+Allow: /
+Disallow: /cdn-cgi/
+
+# Sitemap reference
 Sitemap: https://www.zerolevelslg.com/sitemap.xml
+Sitemap: https://www.zerolevelslg.com/sitemap_courses.xml
