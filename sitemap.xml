@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!--
-    NOTE: This is a single-page application (SPA) with JavaScript routing.
-    All content is served from the root URL. Hash fragments (#courses, #admission)
-    are handled client-side and are NOT separate URLs for search engines.
-    
-    To improve SEO, ensure all critical content is in the initial HTML render
-    or use server-side rendering / prerendering for each route.
-  -->
-
-  <!-- Homepage — highest priority -->
-  <url>
-    <loc>https://www.zerolevelslg.com/</loc>
-    <lastmod>2026-04-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
+  <url><loc>https://www.zerolevelslg.com/</loc><lastmod>2026-10-10</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.zerolevelslg.com/mbbs-admission-siliguri/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.zerolevelslg.com/engineering-btech-admission/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.zerolevelslg.com/mba-pgdm-admission/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.zerolevelslg.com/law-admission-ba-llb/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.zerolevelslg.com/nursing-admission-gnm-anm-bsc/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.zerolevelslg.com/online-degree-admission/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.zerolevelslg.com/nios-admission-siliguri/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.zerolevelslg.com/bosse-admission-siliguri/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.zerolevelslg.com/about/</loc><lastmod>2026-10-10</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.zerolevelslg.com/contact/</loc><lastmod>2026-10-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.zerolevelslg.com/guides/nios-vs-bosse/</loc><lastmod>2026-10-10</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.zerolevelslg.com/courses/</loc><lastmod>2026-10-10</lastmod><priority>0.9</priority></url>
 </urlset>
