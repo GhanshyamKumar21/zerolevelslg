@@ -1,4 +1,15 @@
+# robots.txt — Zero Level, Siliguri
+# www.zerolevelslg.com
+# Education Consultancy | Since 2013
+
 User-agent: *
 Allow: /
 
+# Block irrelevant crawling paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Sitemap location
 Sitemap: https://www.zerolevelslg.com/sitemap.xml
